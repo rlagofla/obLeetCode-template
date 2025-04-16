@@ -20,5 +20,5 @@ export const createMd = async (url, dir) => {
 
     console.log(`✅ 已生成笔记`);
 
-    await openObsidianLink("算法", `repo/${info.titleCn}.md`);
+    // await openObsidianLink("算法", `repo/${info.titleCn}.md`);
 }
